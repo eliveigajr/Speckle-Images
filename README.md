@@ -1,1 +1,5 @@
-# Speckle-Images
+# Germination Stages Laser Speckle Dataset
+
+## 📂 Dataset Description
+
+This dataset is composed of sub-images with dimensions of 50×50 pixels, evenly distributed across four germination stages: 0h (normal or non-germinated), 6h, 12h, and 24h. For each stage, 300 sub-images were extracted from contrast maps generated using two laser speckle image analysis techniques: Laser Speckle Spatial Contrast Analysis (LASCA) and Laser Speckle Temporal Contrast Analysis (LASTCA). Specifically, LASCA maps were produced from single static speckle images by calculating spatial contrast over non-overlapping windows, while LASTCA maps were generated from video sequences by analyzing temporal intensity fluctuations across 120 frames. For both methods, an equal number of sub-images (300 per class) were collected, resulting in a total of 1,200 sub-images per technique—with 300 labeled as normal (0h) and 900 labeled as germinated (6h, 12h, and 24h combined). All sub-images were manually selected from regions of interest (ROIs) that captured representative areas of biological activity or inactivity. This dataset served as the foundation for training and evaluating machine learning models.
